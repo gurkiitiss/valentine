@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: rgb(250, 148, 148);
+    font-size: 50px;
+}
+
+img{
+  width: 500px;
+  align-items: center;
+  display: block;
+  margin-top: 100px;
+  margin-left: 1000px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.yes {
+  background: #5eff00;
+  color: white;
+}
+
+.no {
+  background: #e26e6e;
+  color: #333;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
